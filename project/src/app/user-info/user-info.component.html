@@ -1,0 +1,25 @@
+<div class="container d-flex flex-column gap-2 bg-dark bg-gradient text-white text-center align-items-center border border-5 border-dark rounded-3 p-3 position-absolute top-50 start-50 translate-middle">
+    <img src="#" alt="The users photo">
+    <div class="container d-flex gap-2 bg-dark w-50">
+    <p class="p-3 m-3">FirstName:</p>
+    <p class="p-3 m-3"> {{name}} </p>
+    </div>
+    <div class="container d-flex gap-2 bg-dark text-center w-50">
+        <p class="p-3 m-3">SecondName:</p>
+        <p class="p-3 m-3"> {{surname}} </p>
+    </div>
+    <div class="container d-flex gap-2 bg-dark text-center w-50">
+        <p class="p-3 m-3">Email:</p>
+        <p class="p-3 m-3"> {{email}} </p>
+    </div>
+    <div class="container d-flex gap-2 bg-dark text-center w-50">
+        <p class="p-3 m-3">Username:</p>
+        <p class="p-3 m-3"> {{username}} </p>
+    </div>
+    <button type="button" class="btn btn-primary w-25"      
+        routerLink="/table"
+        routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page">
+            Return to main
+    </button>
+</div>

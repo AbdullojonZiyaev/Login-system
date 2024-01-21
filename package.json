@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@okta/okta-angular": "^1.0.7"
+  }
+}
